@@ -1,0 +1,76 @@
+
+/* Cai dat chung cho trang web */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Phan dau trang */
+header {
+    background-color: #dbeafe;
+    padding: 20px;
+}
+
+/* Thanh dieu huong */
+nav {
+    background-color: #1e3a5f;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Danh sach tren thanh dieu huong */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cac muc tren thanh dieu huong */
+li {
+    display: inline-block;
+    width: 120px;
+}
+
+/* Lien ket tren thanh dieu huong */
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    font-weight: bold;
+}
+
+/* Hieu ung khi dua chuot vao */
+nav a:hover {
+    background-color: #4169a1;
+    border-radius: 5px;
+}
+
+/* Noi dung chinh */
+main {
+    background-color: #f1f5f9;
+    font-size: 18px;
+    padding: 20px;
+}
+
+/* Tieu de chinh */
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: #1e3a5f;
+}
+
+/* Doan van */
+p {
+    line-height: 1.6;
+}
+
+/* Phan cuoi trang */
+footer {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
